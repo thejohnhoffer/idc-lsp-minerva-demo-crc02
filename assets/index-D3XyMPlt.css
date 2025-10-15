@@ -1,4 +1,71 @@
-._wrap_12mrz_1 {
+._black_1x96s_1 {
+  background-color: black;
+}
+
+._center_1x96s_5 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  align-items: center;
+  width: 100%;
+  min-height: 100%;
+  flex: 1;
+}
+
+._toolbar_1x96s_16 {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  background: #000000;
+  border-radius: 6px;
+  padding: 8px;
+}
+
+._toolButton_1x96s_26 {
+  background: #f0f0f0;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 32px;
+  min-height: 32px;
+}
+
+._toolButton_1x96s_26:hover {
+  background: #e0e0e0;
+  border-color: #999;
+}
+
+._toolButton_1x96s_26:active {
+  background: #d0d0d0;
+  transform: translateY(1px);
+}
+
+._toolButton_1x96s_26._active_1x96s_51 {
+  background: #007acc;
+  color: white;
+  border-color: #005a9e;
+}
+
+._toolButton_1x96s_26._active_1x96s_51:hover {
+  background: #0066b3;
+}
+
+._layersPanel_1x96s_61 {
+  flex: 1 1 auto;
+  min-height: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}._wrap_12mrz_1 {
   height: 100%;
   display: grid;
   pointer-events: none;
