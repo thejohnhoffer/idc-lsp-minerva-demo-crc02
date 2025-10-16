@@ -21,8 +21,7 @@ jobs:
         id: pnpm-install
         with:
           version: 8
-          run_install:
-            cwd: minerva-core-ui
+          run_install: "cwd: minerva-core-ui"
       - name: Build with pnpm
         run: |
           cd minerva-core-ui
