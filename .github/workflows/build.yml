@@ -11,7 +11,7 @@ jobs:
         with:
           repository: 'labsyspharm/minerva-core-ui'
           path: minerva-core-ui 
-          token: ${{ secrets.GITHUB_AUTH_TOKEN }}
+          token: ${{ secrets.GH_AUTH_TOKEN }}
       - name: Install Node.js
         uses: actions/setup-node@v3
         with:
